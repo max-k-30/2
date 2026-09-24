@@ -12,8 +12,27 @@
 # z = y[0]
 # print(y)
 # print(z)
-def count():
-    x = input
-    y = x.split()
-    print(len(y)) 
-count()
+# def count():
+#     x = input("gimme some words ")
+#     y = x.split()
+#     print(len(y)) 
+# count()
+# day_of_the_week = input("What day is it? ")
+# if day_of_the_week == "Friday":
+#     print("correct!")
+# else:
+#     print("incorrect")
+# x = "test"
+# print(f"hello {x}")
+# temp = 75
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+# else:
+#     print('cold')
+def odd_or_even():
+    z = input(int("pick a number "))
+    x = int
+    if z == 1+2x:
+        print("odd")
