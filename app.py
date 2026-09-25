@@ -31,8 +31,22 @@
 #     print('perfect')
 # else:
 #     print('cold')
-def odd_or_even():
-    z = input(int("pick a number "))
-    x = int
-    if z == 1+2x:
-        print("odd")
+# def odd_or_even():
+#     x = int(input("pick any integer "))
+#     if x%2 == 0:
+#         print("even")
+#     else:
+#         print("odd")
+# odd_or_even()
+def bill_calculation():
+    x = input("How was your meal? ")
+    y = input("what was the total without tax? ") 
+    if x == "bad":
+        print(y)
+    elif x == "okay":
+        print(y *= 1.15)
+    elif x == "good":
+        print(y *= 1.2)
+    elif x == "great":
+        print(y *= 1.25)
+bill_calculation()
