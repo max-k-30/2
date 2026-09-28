@@ -38,15 +38,29 @@
 #     else:
 #         print("odd")
 # odd_or_even()
-def bill_calculation():
-    x = input("How was your meal? ")
-    y = input("what was the total without tax? ") 
-    if x == "bad":
-        print(y)
-    elif x == "okay":
-        print(y *= 1.15)
-    elif x == "good":
-        print(y *= 1.2)
-    elif x == "great":
-        print(y *= 1.25)
-bill_calculation()
+# def bill_calculation():
+#     x = input("How was your meal? ")
+#     y = float(input("what was the total without tax? ")) 
+#     if x == "bad":
+#         print(y)
+#     elif x == "okay":
+#         print(y * 1.15)
+#     elif x == "good":
+#         print(y * 1.2)
+#     elif x == "great":
+#         print(y * 1.25)
+# bill_calculation()
+# def factors():
+#     x = int(input("pick an integer "))
+#     y = 1
+#     for i in range (x):
+#         if x%y == 0:
+#             print(y)
+#         y += 1
+# factors()
+def GCF(x,y):
+    z = 1
+    for i in range(x):
+        if x%z == 0 and y%z == 0:
+            print(z)
+GCF(8,24)    
